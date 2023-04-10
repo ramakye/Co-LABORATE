@@ -60,6 +60,7 @@ h2{
 	position: relative;
 	padding: 0 0 10px;
 	margin-bottom: 10px;
+    text-align: center !important;
 }
 
 h2:after{
