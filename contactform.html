@@ -29,7 +29,7 @@
 
 
 
-</head>
+
 <body>
 
 
@@ -58,15 +58,7 @@
   
 
 
-
-
-
-
-
-
-
-
-	<div class="container">
+	<!-- <div class="container">
 		<div class="contact-box">
 			<div class="left"></div>
 			<div class="right">
@@ -83,10 +75,37 @@
                     <option value="property-owner">Property Owner</option>
                     <option value="investor">Investor</option>
                   </select>
-				<!-- <textarea placeholder="Message" class="field"></textarea> -->
-				<button class="btn">Submit</button>
+				<textarea placeholder="Message" class="field"></textarea> 
+        				<button class="btn">Submit</button>
 			</div>
 		</div>
 	</div>
+ -->
+
+<!-- My update  -->
+ <div class="container">
+	<form action="db_update.php" method="POST">
+		<div class="contact-box">
+			<div class="left"></div>
+			<div class="right">
+
+				<h2>Get ready to unleash your potential with us.</h2>
+				<input type="text" class="field" placeholder="Your Name" name="name">
+				<input type="text" class="field" placeholder="Your Email" name="email">
+				<input type="text" class="field" placeholder="Phone" name="phone">
+        <input type="text" class="field" placeholder="Location" name="location">
+
+
+                <select id="user-type" class="field" name="user-type">
+                    <option value="member">Member</option>
+                    <option value="property-owner">Property Owner</option>
+                    <option value="investor">Investor</option>
+                </select>
+				<!-- <textarea placeholder="Message" class="field"></textarea> -->
+				<button type="submit" class="btn">Submit</button>
+			</div>
+		</div>
+	</form>
+</div>
 </body>
 </html>
